@@ -1,0 +1,40 @@
+    <!-- Download Section -->
+    <section id="subscribe" class="content-section text-left">
+        <div class="subscribe-section">
+            <div class="container">
+            	<div class="row">
+	                <div class="col-md-8 col-md-offset-2">
+	                    <h2>Subscribe to get the latest news</h2>
+	                    <!-- Begin MailChimp Signup Form -->
+						<div id="mc_embed_signup">
+						<form action="//github.us13.list-manage.com/subscribe/post?u=13de10f70bb47290c433324e9&amp;id=49a932cc5c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+							<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+						    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_13de10f70bb47290c433324e9_49a932cc5c" tabindex="-1" value=""></div>
+						    <div id="mc_embed_signup_scroll">
+							<p>Email Address
+							<input type="email" value="" name="EMAIL" class="required-email" id="mce-EMAIL">
+							<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="subscribe-button btn btn-default btn-lg">
+							</p>
+
+						    </div>
+						</form>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-7 col-md-4 col-md-offset-2 vcenter">
+							<p style="margin: 0">Please consider adding our social network page:</p>
+					</div>
+					<div class="xol-xs-1 col-md-2 vcenter">
+							<ul class="list-inline" style="margin: 0px">
+			                    {% for network in site.subscribe %}
+			                    <li>
+			                        <a href="{{ network.url }}" class="btn btn-default btn-lg"><i class="fa fa-{{ network.title }} fa-fw"></i> <span class="network-name">{{ network.title }}</span></a>
+			                    </li>
+			                    {% endfor %}
+			                </ul>
+	                </div>
+				</div>
+            </div>
+        </div>
+    </section>

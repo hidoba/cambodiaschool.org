@@ -1,0 +1,17 @@
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row" style="padding-top: 50px">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <h1 class="brand-heading">{% if page.language == 'EN' %} {{ site.title }} {% else %} {{ page.title }} {% endif %}</h1>
+                        <p class="brand-subheading">{{ page.txtCollab }} <a href="http://www.wolfram.com/">Wolfram Research</a></p>
+                        <p class="intro-text">{% if page.language == 'EN' %} {{ site.description }} {% else %} {{ page.description }} {% endif %}<br>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>

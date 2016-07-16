@@ -1,0 +1,28 @@
+# Site settings
+title: "Quick Prototyping school in Cambodia‑2016"
+email: vladi@cambodiaschool.org
+url: http://cambodiaschool.org
+description: "This school is a 4-weeks event for best students to explore the most recent advances in programming, Artificial Intelligence and science. It is planned for September-October 2016 in Phnom Penh, the capital of Cambodia."
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#FFFFFF'
+  links: '#219ab3'
+
+# Footer settings
+footer: Vladimir Grankovsky
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+subscribe:
+  - title: facebook
+    url: https://www.facebook.com/cambodiaschool2016
+
+social:
+  - title: facebook
+    url: https://www.facebook.com/cambodiaschool2016
+  - title: linkedin
+    url: https://www.linkedin.com/in/vladimir-grankovsky-44483b110
+
+# Build settings
+markdown: kramdown
+permalink: pretty
