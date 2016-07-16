@@ -1,13 +1,11 @@
-Grayscale Jekyll theme
+A website for Quick Prototyping School-2016 in Cambodia 
 =========================
 
-Jekyll theme based on [Grayscale bootstrap theme ](http://ironsummitmedia.github.io/startbootstrap-grayscale/)
-
 ## Demo
-View this jekyll theme in action [here](https://jeromelachaud.github.io/grayscale-theme)
+Check it online [here ](http://cambodiaschool.org/). Facebook page for an event is [here ](https://www.facebook.com/cambodiaschool2016).
 
-## Screenshot
-![screenshot](https://raw.githubusercontent.com/jeromelachaud/grayscale-theme/master/screenshot.png)
+## Credits
+I'm the author of text and photographs (taken in Cambodia in Jan-Feb 2016 on Canon 6D).
 
-=========
-For more details, read the [documentation](http://jekyllrb.com/)
+## Thanks
+Thanks go to the authors of [Jekyll ](https://jekyllrb.com/), [ Jekyll Grayscale bootstrap theme ](http://ironsummitmedia.github.io/startbootstrap-grayscale/) and [Grayscale bootstrap theme ](http://ironsummitmedia.github.io/startbootstrap-grayscale/).
