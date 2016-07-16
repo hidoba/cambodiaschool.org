@@ -2,11 +2,10 @@
     <section id="about" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>About the school</h2>
-                <p>Quick Prototyping school organized with a collaboration of <a href="http://wolfram.com">Wolfram Research</a> is an event for students. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
-                <p>The Jekyll version is brought to you by <a href="https://github.com/jeromelachaud">Jerome Lachaud</a></p>
-                <p>This theme features stock photos by <a href="http://gratisography.com/">Gratisography</a> along with a custom Google Maps skin courtesy of <a href="http://snazzymaps.com/">Snazzy Maps</a>.</p>
-                <p>Grayscale includes full HTML, CSS, and custom JavaScript files along with LESS files for easy customization.</p>
+                {% if page.language == 'EN' %} {% capture about-content %}{% include about.md %} {% endcapture %} {% endif %}
+                {% if page.language == 'KH' %} {% capture about-content %}{% include KH/about.md %} {% endcapture %} {% endif %}
+                
+                {{ about-content | markdownify }}
             </div>
         </div>
     </section>
