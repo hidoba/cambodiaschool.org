@@ -186,6 +186,7 @@ a:focus {
 }
 
 .intro .intro-body .brand-subheading {
+    padding-top: 5px;
     font-size: 20px;
 }
 
