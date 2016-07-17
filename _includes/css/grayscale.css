@@ -30,23 +30,21 @@ h6 {
     letter-spacing: 1px;
 }
 
-p {
-    margin: 0 0 25px;
+p, .content-section li {
+    margin-bottom: 10px;
     font-size: 18px;
-    line-height: 1.5;
 }
 
 @media(max-width:300px) {
-    p {
+    p, .content-section li {
         font-size: 13px;
     }
 }
 
 @media(min-width:767px) {
-    p {
-        margin: 0 0 35px;
+    p, .content-section li {
+        margin: 0 0 15px;
         font-size: 20px;
-        line-height: 1.6;
     }
 }
 
@@ -398,16 +396,19 @@ a:focus {
     }
 }
 
-.subscribe-section {
+.subscribe-section, .sponsors-section {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(/img/subscribe-bg.jpg) no-repeat center center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+.subscribe-section {
+    background: url(/img/subscribe-bg.jpg) no-repeat center center scroll;
 }
 
 .sponsors-section {
