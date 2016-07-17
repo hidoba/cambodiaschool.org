@@ -4,7 +4,7 @@
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>{{ page.txtContact }}</h2>
                 <p>{{ page.txtContactText }}</p>
-                <p><a href="mailto:{{ site.email }}">{{ site.email }}</a>
+                <p><a href="mailto:{{ site.email }}" class="concact-email">{{ site.email }}</a>
                 </p>
                 <ul class="list-inline banner-social-buttons">
                     {% for network in site.social %}

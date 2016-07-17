@@ -36,6 +36,12 @@ p {
     line-height: 1.5;
 }
 
+@media(max-width:300px) {
+    p {
+        font-size: 13px;
+    }
+}
+
 @media(min-width:767px) {
     p {
         margin: 0 0 35px;
@@ -89,6 +95,24 @@ a:focus {
     padding: 4px 6px;
     font-size: 16px;
     color: #fff;
+}
+
+@media(max-width:300px) {
+    .navbar-custom .navbar-brand .navbar-toggle {
+        font-size: 14px;
+    }
+    .navbar-brand {
+        font-size: 13px;
+    }
+    .navbar-toggle {
+        padding-top: 5px;
+        margin-bottom: 0px;
+        padding-right: 0px;
+    }
+    .nav li a {
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
 }
 
 .navbar-custom .navbar-brand .navbar-toggle:focus,
@@ -200,6 +224,52 @@ a:focus {
     }
 }
 
+@media(max-width:400px) {
+    .intro .intro-body .brand-heading {
+        font-size: 25px;
+        margin: 0 0 0;
+        padding-top: 15px;
+    }
+
+    .intro .intro-body .brand-subheading {
+        font-size: 20px;
+    }    
+
+    .intro .intro-body .intro-text {
+        font-size: 20px;
+    }
+}
+
+
+@media(max-width:300px) {
+    .intro .intro-body .brand-heading {
+        font-size: 18px;
+        margin: 0 0 0;
+        padding-top: 15px;
+    }
+
+    .intro .intro-body .brand-subheading {
+        font-size: 15px;
+    }    
+
+    .intro .intro-body .intro-text {
+        font-size: 13px;
+    }
+
+    .intro {
+        padding-top: 50px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    .btn-lg {
+        font-size: 15px;
+    }
+}
+
+
 .btn-circle {
     width: 70px;
     height: 70px;
@@ -213,6 +283,18 @@ a:focus {
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
+}
+
+@media(max-width:300px) {
+    .btn-circle {
+        width: 50px;
+        height: 50px;
+        margin-top: 15px;
+        padding: 7px 16px;
+        border: 2px solid #fff;
+        border-radius: 35px;
+        font-size: 20px;
+    }
 }
 
 .btn-circle:hover,
@@ -280,12 +362,40 @@ a:focus {
     float: none;
 }
 
-.img-link {
+.img-sponsor-logo {
     cursor: pointer;
+    max-width: 235px;
+}
+
+.required-email {
+    color: #000;
+}
+
+.field-label {
+    margin-right: 30px;
+}
+
+@media(max-width:400px) {
+    .img-sponsor-logo {
+        width: 100%;
+    }
+    .required-email {
+        width: 100px;
+    }
+    .concact-email {
+        font-size: 13px;
+
+    }
 }
 
 .content-section {
     padding-top: 50px;
+}
+
+@media(max-width: 300px){
+    .content-section {
+        padding-top: 30px;
+    }
 }
 
 .subscribe-section {
@@ -312,9 +422,11 @@ a:focus {
     -o-background-size: cover;
 }
 
-.required-email {
-    margin-left: 30px;
-    color: #000;
+@media(max-width: 300px){
+    .subscribe-section, .sponsors-section {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
 }
 
 .subscribe-button {
