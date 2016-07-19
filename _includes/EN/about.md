@@ -15,4 +15,4 @@ The Summer school will give the students:
 5. __Career opportunities__ by becoming more competetive and potentially being hired or invited for an internship by one of the instructors.
 6. __A huge deal of motivation__ to make own projects.
 
-All curious students, professors and potential sponsors are invited to [subscribe](#subscribe) to the newsletter or [contact](#contact) us.
+All curious students are invited to [register for the course](#subscribe), professors and potential sponsors may [contact](#contact) us.

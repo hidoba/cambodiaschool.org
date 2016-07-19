@@ -239,36 +239,6 @@ a:focus {
     }
 }
 
-
-@media(max-width:300px) {
-    .intro .intro-body .brand-heading {
-        font-size: 18px;
-        margin: 0 0 0;
-        padding-top: 15px;
-    }
-
-    .intro .intro-body .brand-subheading {
-        font-size: 15px;
-    }    
-
-    .intro .intro-body .intro-text {
-        font-size: 13px;
-    }
-
-    .intro {
-        padding-top: 50px;
-    }
-
-    h2 {
-        font-size: 25px;
-    }
-
-    .btn-lg {
-        font-size: 15px;
-    }
-}
-
-
 .btn-circle {
     width: 70px;
     height: 70px;
@@ -412,6 +382,22 @@ a:focus {
     background: url(/img/subscribe-bg.jpg) no-repeat center center scroll;
 }
 
+@media(max-width: 700px){
+    .subscribe-section {
+        background: url(/img/subscribe-sm.jpg) no-repeat center center scroll;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+    }
+}
+
+@media(max-width: 500px){
+    .subscribe-section {
+        background-position: 20%;
+    }
+}
+
 .sponsors-section {
     width: 100%;
     padding: 50px 0;
@@ -483,6 +469,56 @@ a:focus {
     background-color: {{ site.color.links }};
 }
 
+
+@media(max-width:400px) {
+    .btn-lg {
+        font-size: 15px;
+    }
+}
+
+@media(max-width:300px) {
+    .intro .intro-body .brand-heading {
+        font-size: 18px;
+        margin: 0 0 0;
+        padding-top: 15px;
+    }
+
+    .intro .intro-body .brand-subheading {
+        font-size: 15px;
+    }    
+
+    .intro .intro-body .intro-text {
+        font-size: 13px;
+    }
+
+    .intro {
+        padding-top: 50px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    .btn-lg {
+        font-size: 12px;
+    }
+
+    .btn {
+        text-transform: none;
+    }
+}
+
+@media(max-width:250px) {
+    h2 {
+        font-size: 18px;
+    }
+    .btn-lg {
+        font-size: 12px;
+        padding: 2px;
+    }
+}
+
+
 ul.banner-social-buttons {
     margin-top: 0;
 }
@@ -523,7 +559,7 @@ footer p {
     background: rgba(255,255,255,.2);
 }
 
-::selection {
+.dark-section ::selection {
     text-shadow: none;
     background: #fcfcfc;
     background: rgba(255,255,255,.2);
@@ -539,4 +575,8 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+
+blockquote {
+    margin-bottom: 35px;
 }
