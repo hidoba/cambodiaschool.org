@@ -9,7 +9,7 @@ The goal of the school is to introduce the students to the bleeding-edge program
 The Summer school will give the students:
 
 1. __Most recent knowledge and techniques__ in modern programming and Artificial Intelligence. Among the Summer school instructors will be the software engineers from Silicon Valley working for industry and knowledgable about how the things are done.
-2. __Quick prototyping skills__ in Wolfram language and Python.
+2. __Quick prototyping skills__ in Wolfram language.
 3. __Introduction to the advances in science__ to raise curiousity and the general knowledge level.
 4. __Introduction to Stephen Wolfram's New Kind of Science__ to show a different approach of doing science.
 5. __Career opportunities__ by becoming more competetive and potentially being hired or invited for an internship by one of the instructors.
