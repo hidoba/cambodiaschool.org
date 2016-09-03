@@ -2,7 +2,7 @@
 
 > _Imagination is more important than knowledge_ — Albert Einstein
 
-Quick Prototyping school organized in collaboration with [Wolfram Research](http://wolfram.com/) is a free event for students that will take place in Phnom Penh in September-October 2016 (dates to be announced).
+Quick Prototyping school organized with support of [Wolfram Research](http://wolfram.com/) is a free event for students that will take place in Phnom Penh in September-October 2016 (dates to be announced).
 
 The goal of the school is to introduce the students to the bleeding-edge programming, Artificial Intelligence and Science.
 
