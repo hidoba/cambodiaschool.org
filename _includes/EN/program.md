@@ -16,4 +16,6 @@ The course will be going on from Monday to Friday from 8:00 AM to approximately 
 
 10:30AM – 12:00AM – discussion groups or lecture
 
-1:30PM – 5:00PM – work on the personal projects with supervisors.
+1:30PM – 5:00PM – work on the personal projects with supervisors (optional, but recommended)
+
+5:30PM – 8:00PM — possible second session for students who can't attend the first session (if there will be enough students)
