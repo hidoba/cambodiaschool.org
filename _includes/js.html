@@ -22,5 +22,38 @@
 
   ga('create', 'UA-80836757-1', 'auto');
   ga('send', 'pageview');
+  </script>
 
-</script>
+    <script>
+      function isScrolledIntoView(elem)
+      {
+          var docViewTop = $(window).scrollTop();
+          var docViewBottom = docViewTop + $(window).height();
+
+          var elemTop = $(elem).offset().top;
+          var elemBottom = elemTop + $(elem).height();
+
+          return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+      }
+
+      var reportedScrollToFacebook = false;
+
+      // what should we do when scrolling occurs
+      var runOnScroll =  function(evt) {
+        if (isScrolledIntoView("#registerLink")) {
+          if(!reportedScrollToFacebook){
+            // console.log('Registration button in view');
+            reportedScrollToFacebook = true;
+            fbq('track', 'ViewContent');
+          }
+        }
+      };
+
+      window.addEventListener('scroll', function(e) {
+        runOnScroll();
+      });
+      runOnScroll();
+
+
+
+    </script>
