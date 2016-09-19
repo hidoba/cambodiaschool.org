@@ -23,6 +23,7 @@ social:
   - title: linkedin
     url: https://www.linkedin.com/in/vladimir-grankovsky-44483b110
 
+
 # Build settings
 markdown: kramdown
 permalink: pretty
