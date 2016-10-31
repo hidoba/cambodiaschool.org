@@ -1,0 +1,13 @@
+    <!-- Download Section -->
+    <section id="reviewsSection" class="content-section text-left dark-section">
+        <div class="reviews-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        {% capture review-content %}{% include EN/reviews.md %} {% endcapture %}
+                        {{ review-content | markdownify }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>

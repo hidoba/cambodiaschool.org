@@ -2,17 +2,8 @@
 
 > _Imagination is more important than knowledge_ — Albert Einstein
 
-Quick Prototyping school organized with support of [Wolfram Research](http://wolfram.com/) is a free event for students that is taking place in Phnom Penh in Khemarak University, right now, from September 20 to October 20, 2016.
+Quick Prototyping school organized with support of [Wolfram Research](http://wolfram.com/) is a free event for students that has taken place in Phnom Penh in Khemarak University, from September 20 to October 27, 2016.
 
-The goal of the school is to introduce the students to the bleeding-edge programming, Artificial Intelligence and Science.
+The goal of the school was to introduce the students to the bleeding-edge programming, Artificial Intelligence and Science.
 
-The Summer school will give the students:
-
-1. __Most recent knowledge and techniques__ in modern programming and Artificial Intelligence. Among the Summer school instructors will be the software engineers from Silicon Valley working for industry and knowledgable about how the things are done.
-2. __Quick prototyping skills__ in Wolfram language.
-3. __Introduction to the advances in science__ to raise curiousity and the general knowledge level.
-4. __Introduction to Stephen Wolfram's New Kind of Science__ to show a different approach of doing science.
-5. __Career opportunities__ by becoming more competetive and potentially being hired or invited for an internship by one of the instructors.
-6. __A huge deal of motivation__ to make own projects.
-
-All curious students are invited for the [late registration for the course](#subscribe), professors and potential sponsors may [contact](#contact) us.
+You can check our [Facebook page](https://www.facebook.com/cambodiaschool2016/) to see some photographs and information of how it was going. Also take a look at student projects [below](#projects) on this page.
